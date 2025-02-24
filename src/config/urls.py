@@ -23,4 +23,5 @@ urlpatterns = [
     path('saludar/', views.saludar),
     path('saludar_con_parametro/', views.saludar_con_parametro),
     path('saludar2/<str:nombre>/<str:apellido>/', views.saludaar_con_parametro),
+    path('', views.index),
 ]
